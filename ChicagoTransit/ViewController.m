@@ -10,7 +10,7 @@
 #import <RestKit/RestKit.h>
 #import "MappingProvider.h"
 #import "RKXMLReaderSerialization.h"
-
+#import <RKManagedObjectRequestOperation.h>
 
 @interface ViewController ()
 
@@ -35,23 +35,26 @@
 
 - (void)getBusRoutes {
     
-    NSIndexSet *statusCodeSet = RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful);
     [RKMIMETypeSerialization registerClass:[RKXMLReaderSerialization class] forMIMEType:RKMIMETypeTextXML];
+    
+    
     RKMapping *mapping = [MappingProvider routeMapping];
     RKResponseDescriptor *responseDescrptor = [RKResponseDescriptor
                                                responseDescriptorWithMapping:mapping
                                                method:RKRequestMethodGET
-                                               pathPattern:ROUTESPATH
+                                               pathPattern:nil
                                                keyPath:ROUTESKEYPATH
-                                               statusCodes:statusCodeSet];
+                                               statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)];
+    
     
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@?key=%@", ROUTESURL, API_KEY]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
 
+    
     RKObjectRequestOperation *operation = [[RKObjectRequestOperation alloc] initWithRequest:request responseDescriptors:@[responseDescrptor]];
     
     [operation setCompletionBlockWithSuccess:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-        NSLog(@"result count: %i", [mappingResult.array count]);
+        NSLog(@"result array: %@", [[mappingResult firstObject] description]);
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", [error description]);
     }];

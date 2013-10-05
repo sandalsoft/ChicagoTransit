@@ -10,10 +10,10 @@
 
 @interface CTAEndpoints : NSObject
 
-#define APIBASEURL @"http://www.ctabustracker.com/bustime/api/v1/"
+#define APIBASEURL @"http://www.ctabustracker.com/bustime/api/v1"
 
 #define ROUTESURL  @"http://www.ctabustracker.com/bustime/api/v1/getroutes"
-#define ROUTESPATH @"/bustime/api/v1/getroutes"
-#define ROUTESKEYPATH @"bustime-response"
+#define ROUTESPATH @"/getroutes"
+#define ROUTESKEYPATH @"bustime-response.route"
 
 @end

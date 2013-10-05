@@ -14,7 +14,6 @@
 + (RKMapping *) routeMapping {
     RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[Route class]];
     [mapping addAttributeMappingsFromArray:@[@"rt", @"rtnm"]];
-    
     return mapping;
 }
 
