@@ -6,7 +6,12 @@
 
 #import <Availability.h>
 
-#define API_KEY @"L8AhtAaqytXUu3tjDxsjyThrQ"`
+#define API_KEY @"L8AhtAaqytXUu3tjDxsjyThrQ"
+
+#import "CTAEndpoints.h"
+#import "XMLDictionary.h"
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFHTTPRequestOperationManager.h>
 
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."

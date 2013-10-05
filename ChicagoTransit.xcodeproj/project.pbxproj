@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		07373EE217FB929F00AB2B13 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE117FB929F00AB2B13 /* StoreKit.framework */; };
 		07373EE417FB92B200AB2B13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE317FB92B200AB2B13 /* MapKit.framework */; };
+		0746D43218006236002EA77D /* CTABusTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43118006236002EA77D /* CTABusTracker.m */; };
+		0746D43518006465002EA77D /* CTAEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43418006465002EA77D /* CTAEndpoints.m */; };
+		0746D438180090EE002EA77D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D437180090EE002EA77D /* Route.m */; };
+		0746D43B18009170002EA77D /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43A18009170002EA77D /* Vehicle.m */; };
+		0746D43E180092C0002EA77D /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43D180092C0002EA77D /* Direction.m */; };
+		0746D441180092ED002EA77D /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D440180092ED002EA77D /* Stop.m */; };
+		0746D4441800935F002EA77D /* Pattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D4431800935F002EA77D /* Pattern.m */; };
+		0746D44718009656002EA77D /* Pt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D44618009656002EA77D /* Pt.m */; };
+		0746D44A1800974F002EA77D /* Prediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D4491800974F002EA77D /* Prediction.m */; };
+		0746D44E18009968002EA77D /* ServiceBulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D44D18009968002EA77D /* ServiceBulletin.m */; };
+		0746D45118009AB8002EA77D /* AffectedService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D45018009AB8002EA77D /* AffectedService.m */; };
 		07B4D86A17FAF9C70090303E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86917FAF9C70090303E /* Foundation.framework */; };
 		07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86B17FAF9C70090303E /* CoreGraphics.framework */; };
 		07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86D17FAF9C70090303E /* UIKit.framework */; };
@@ -40,6 +51,28 @@
 		07373EE017FB928B00AB2B13 /* ChicagoTransit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChicagoTransit.entitlements; sourceTree = "<group>"; };
 		07373EE117FB929F00AB2B13 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		07373EE317FB92B200AB2B13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0746D43018006236002EA77D /* CTABusTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTABusTracker.h; sourceTree = "<group>"; };
+		0746D43118006236002EA77D /* CTABusTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTABusTracker.m; sourceTree = "<group>"; };
+		0746D43318006465002EA77D /* CTAEndpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAEndpoints.h; sourceTree = "<group>"; };
+		0746D43418006465002EA77D /* CTAEndpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAEndpoints.m; sourceTree = "<group>"; };
+		0746D436180090EE002EA77D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		0746D437180090EE002EA77D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		0746D43918009170002EA77D /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		0746D43A18009170002EA77D /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		0746D43C180092C0002EA77D /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		0746D43D180092C0002EA77D /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
+		0746D43F180092ED002EA77D /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		0746D440180092ED002EA77D /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		0746D4421800935F002EA77D /* Pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pattern.h; sourceTree = "<group>"; };
+		0746D4431800935F002EA77D /* Pattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pattern.m; sourceTree = "<group>"; };
+		0746D44518009656002EA77D /* Pt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pt.h; sourceTree = "<group>"; };
+		0746D44618009656002EA77D /* Pt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pt.m; sourceTree = "<group>"; };
+		0746D4481800974F002EA77D /* Prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prediction.h; sourceTree = "<group>"; };
+		0746D4491800974F002EA77D /* Prediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prediction.m; sourceTree = "<group>"; };
+		0746D44C18009968002EA77D /* ServiceBulletin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceBulletin.h; sourceTree = "<group>"; };
+		0746D44D18009968002EA77D /* ServiceBulletin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceBulletin.m; sourceTree = "<group>"; };
+		0746D44F18009AB8002EA77D /* AffectedService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffectedService.h; sourceTree = "<group>"; };
+		0746D45018009AB8002EA77D /* AffectedService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffectedService.m; sourceTree = "<group>"; };
 		07B4D86617FAF9C70090303E /* ChicagoTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4D86917FAF9C70090303E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B4D86B17FAF9C70090303E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +123,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0746D44B18009906002EA77D /* Bus Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0746D436180090EE002EA77D /* Route.h */,
+				0746D437180090EE002EA77D /* Route.m */,
+				0746D43918009170002EA77D /* Vehicle.h */,
+				0746D43A18009170002EA77D /* Vehicle.m */,
+				0746D43C180092C0002EA77D /* Direction.h */,
+				0746D43D180092C0002EA77D /* Direction.m */,
+				0746D43F180092ED002EA77D /* Stop.h */,
+				0746D440180092ED002EA77D /* Stop.m */,
+				0746D4421800935F002EA77D /* Pattern.h */,
+				0746D4431800935F002EA77D /* Pattern.m */,
+				0746D44518009656002EA77D /* Pt.h */,
+				0746D44618009656002EA77D /* Pt.m */,
+				0746D4481800974F002EA77D /* Prediction.h */,
+				0746D4491800974F002EA77D /* Prediction.m */,
+				0746D44C18009968002EA77D /* ServiceBulletin.h */,
+				0746D44D18009968002EA77D /* ServiceBulletin.m */,
+				0746D44F18009AB8002EA77D /* AffectedService.h */,
+				0746D45018009AB8002EA77D /* AffectedService.m */,
+			);
+			name = "Bus Objects";
+			sourceTree = "<group>";
+		};
 		07B4D85D17FAF9C70090303E = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +191,11 @@
 				07B4D87B17FAF9C70090303E /* Main.storyboard */,
 				07B4D87E17FAF9C70090303E /* ViewController.h */,
 				07B4D87F17FAF9C70090303E /* ViewController.m */,
+				0746D44B18009906002EA77D /* Bus Objects */,
+				0746D43018006236002EA77D /* CTABusTracker.h */,
+				0746D43118006236002EA77D /* CTABusTracker.m */,
+				0746D43318006465002EA77D /* CTAEndpoints.h */,
+				0746D43418006465002EA77D /* CTAEndpoints.m */,
 				07B4D88117FAF9C70090303E /* Images.xcassets */,
 				07B4D87017FAF9C70090303E /* Supporting Files */,
 			);
@@ -317,9 +380,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0746D43218006236002EA77D /* CTABusTracker.m in Sources */,
 				07B4D88017FAF9C70090303E /* ViewController.m in Sources */,
 				07B4D87A17FAF9C70090303E /* AppDelegate.m in Sources */,
+				0746D43E180092C0002EA77D /* Direction.m in Sources */,
+				0746D44A1800974F002EA77D /* Prediction.m in Sources */,
+				0746D45118009AB8002EA77D /* AffectedService.m in Sources */,
+				0746D43B18009170002EA77D /* Vehicle.m in Sources */,
+				0746D44E18009968002EA77D /* ServiceBulletin.m in Sources */,
+				0746D438180090EE002EA77D /* Route.m in Sources */,
+				0746D4441800935F002EA77D /* Pattern.m in Sources */,
+				0746D44718009656002EA77D /* Pt.m in Sources */,
 				07B4D87617FAF9C70090303E /* main.m in Sources */,
+				0746D43518006465002EA77D /* CTAEndpoints.m in Sources */,
+				0746D441180092ED002EA77D /* Stop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
