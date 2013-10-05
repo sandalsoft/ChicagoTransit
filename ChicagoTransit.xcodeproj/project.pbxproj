@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07373EE217FB929F00AB2B13 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE117FB929F00AB2B13 /* StoreKit.framework */; };
+		07373EE417FB92B200AB2B13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE317FB92B200AB2B13 /* MapKit.framework */; };
 		07B4D86A17FAF9C70090303E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86917FAF9C70090303E /* Foundation.framework */; };
 		07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86B17FAF9C70090303E /* CoreGraphics.framework */; };
 		07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86D17FAF9C70090303E /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		07B4D88B17FAF9C70090303E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86D17FAF9C70090303E /* UIKit.framework */; };
 		07B4D89317FAF9C70090303E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B4D89117FAF9C70090303E /* InfoPlist.strings */; };
 		07B4D89517FAF9C70090303E /* ChicagoTransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B4D89417FAF9C70090303E /* ChicagoTransitTests.m */; };
+		90707D9FBE4E475C84D67516 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E24D39ED3A445EA4C1EE03 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07373EE017FB928B00AB2B13 /* ChicagoTransit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChicagoTransit.entitlements; sourceTree = "<group>"; };
+		07373EE117FB929F00AB2B13 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		07373EE317FB92B200AB2B13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		07B4D86617FAF9C70090303E /* ChicagoTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4D86917FAF9C70090303E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B4D86B17FAF9C70090303E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,8 @@
 		07B4D89017FAF9C70090303E /* ChicagoTransitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChicagoTransitTests-Info.plist"; sourceTree = "<group>"; };
 		07B4D89217FAF9C70090303E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07B4D89417FAF9C70090303E /* ChicagoTransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoTransitTests.m; sourceTree = "<group>"; };
+		31DF06E093974C749DBF6659 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		65E24D39ED3A445EA4C1EE03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,10 @@
 			files = (
 				07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */,
 				07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */,
+				07373EE417FB92B200AB2B13 /* MapKit.framework in Frameworks */,
 				07B4D86A17FAF9C70090303E /* Foundation.framework in Frameworks */,
+				07373EE217FB929F00AB2B13 /* StoreKit.framework in Frameworks */,
+				90707D9FBE4E475C84D67516 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,7 @@
 				07B4D88E17FAF9C70090303E /* ChicagoTransitTests */,
 				07B4D86817FAF9C70090303E /* Frameworks */,
 				07B4D86717FAF9C70090303E /* Products */,
+				31DF06E093974C749DBF6659 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +113,13 @@
 		07B4D86817FAF9C70090303E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07373EE317FB92B200AB2B13 /* MapKit.framework */,
+				07373EE117FB929F00AB2B13 /* StoreKit.framework */,
 				07B4D86917FAF9C70090303E /* Foundation.framework */,
 				07B4D86B17FAF9C70090303E /* CoreGraphics.framework */,
 				07B4D86D17FAF9C70090303E /* UIKit.framework */,
 				07B4D88817FAF9C70090303E /* XCTest.framework */,
+				65E24D39ED3A445EA4C1EE03 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +127,7 @@
 		07B4D86F17FAF9C70090303E /* ChicagoTransit */ = {
 			isa = PBXGroup;
 			children = (
+				07373EE017FB928B00AB2B13 /* ChicagoTransit.entitlements */,
 				07B4D87817FAF9C70090303E /* AppDelegate.h */,
 				07B4D87917FAF9C70090303E /* AppDelegate.m */,
 				07B4D87B17FAF9C70090303E /* Main.storyboard */,
@@ -159,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07B4D89817FAF9C70090303E /* Build configuration list for PBXNativeTarget "ChicagoTransit" */;
 			buildPhases = (
+				158F48E20B6B418C9CB2558E /* Check Pods Manifest.lock */,
 				07B4D86217FAF9C70090303E /* Sources */,
 				07B4D86317FAF9C70090303E /* Frameworks */,
 				07B4D86417FAF9C70090303E /* Resources */,
+				D5203AB9A3BC4787ACBB42E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +217,23 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Sandalsoft;
 				TargetAttributes = {
+					07B4D86517FAF9C70090303E = {
+						DevelopmentTeam = 6CVB9YAXS8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					07B4D88617FAF9C70090303E = {
 						TestTargetID = 07B4D86517FAF9C70090303E;
 					};
@@ -243,6 +278,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		158F48E20B6B418C9CB2558E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5203AB9A3BC4787ACBB42E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07B4D86217FAF9C70090303E /* Sources */ = {
@@ -375,26 +443,36 @@
 		};
 		07B4D89917FAF9C70090303E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DF06E093974C749DBF6659 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ChicagoTransit/ChicagoTransit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChicagoTransit/ChicagoTransit-Prefix.pch";
 				INFOPLIST_FILE = "ChicagoTransit/ChicagoTransit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		07B4D89A17FAF9C70090303E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DF06E093974C749DBF6659 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ChicagoTransit/ChicagoTransit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChicagoTransit/ChicagoTransit-Prefix.pch";
 				INFOPLIST_FILE = "ChicagoTransit/ChicagoTransit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +538,7 @@
 				07B4D89A17FAF9C70090303E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07B4D89B17FAF9C70090303E /* Build configuration list for PBXNativeTarget "ChicagoTransitTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +547,7 @@
 				07B4D89D17FAF9C70090303E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
