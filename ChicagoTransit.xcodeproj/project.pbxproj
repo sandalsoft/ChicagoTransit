@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		07373EE217FB929F00AB2B13 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE117FB929F00AB2B13 /* StoreKit.framework */; };
 		07373EE417FB92B200AB2B13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE317FB92B200AB2B13 /* MapKit.framework */; };
-		0746D43218006236002EA77D /* CTABusTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43118006236002EA77D /* CTABusTracker.m */; };
 		0746D43518006465002EA77D /* CTAEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43418006465002EA77D /* CTAEndpoints.m */; };
 		0746D438180090EE002EA77D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D437180090EE002EA77D /* Route.m */; };
 		0746D43B18009170002EA77D /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43A18009170002EA77D /* Vehicle.m */; };
@@ -20,6 +19,9 @@
 		0746D44A1800974F002EA77D /* Prediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D4491800974F002EA77D /* Prediction.m */; };
 		0746D44E18009968002EA77D /* ServiceBulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D44D18009968002EA77D /* ServiceBulletin.m */; };
 		0746D45118009AB8002EA77D /* AffectedService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D45018009AB8002EA77D /* AffectedService.m */; };
+		0746D45418009F25002EA77D /* MappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D45318009F25002EA77D /* MappingProvider.m */; };
+		0746D4561800AEC4002EA77D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746D4551800AEC4002EA77D /* MobileCoreServices.framework */; };
+		0746D4581800AED0002EA77D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746D4571800AED0002EA77D /* SystemConfiguration.framework */; };
 		07B4D86A17FAF9C70090303E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86917FAF9C70090303E /* Foundation.framework */; };
 		07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86B17FAF9C70090303E /* CoreGraphics.framework */; };
 		07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86D17FAF9C70090303E /* UIKit.framework */; };
@@ -51,8 +53,6 @@
 		07373EE017FB928B00AB2B13 /* ChicagoTransit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChicagoTransit.entitlements; sourceTree = "<group>"; };
 		07373EE117FB929F00AB2B13 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		07373EE317FB92B200AB2B13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		0746D43018006236002EA77D /* CTABusTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTABusTracker.h; sourceTree = "<group>"; };
-		0746D43118006236002EA77D /* CTABusTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTABusTracker.m; sourceTree = "<group>"; };
 		0746D43318006465002EA77D /* CTAEndpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAEndpoints.h; sourceTree = "<group>"; };
 		0746D43418006465002EA77D /* CTAEndpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAEndpoints.m; sourceTree = "<group>"; };
 		0746D436180090EE002EA77D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
@@ -73,6 +73,10 @@
 		0746D44D18009968002EA77D /* ServiceBulletin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceBulletin.m; sourceTree = "<group>"; };
 		0746D44F18009AB8002EA77D /* AffectedService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffectedService.h; sourceTree = "<group>"; };
 		0746D45018009AB8002EA77D /* AffectedService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffectedService.m; sourceTree = "<group>"; };
+		0746D45218009F25002EA77D /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		0746D45318009F25002EA77D /* MappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MappingProvider.m; sourceTree = "<group>"; };
+		0746D4551800AEC4002EA77D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0746D4571800AED0002EA77D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		07B4D86617FAF9C70090303E /* ChicagoTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4D86917FAF9C70090303E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B4D86B17FAF9C70090303E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0746D4581800AED0002EA77D /* SystemConfiguration.framework in Frameworks */,
+				0746D4561800AEC4002EA77D /* MobileCoreServices.framework in Frameworks */,
 				07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */,
 				07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */,
 				07373EE417FB92B200AB2B13 /* MapKit.framework in Frameworks */,
@@ -123,7 +129,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0746D44B18009906002EA77D /* Bus Objects */ = {
+		0746D44B18009906002EA77D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				0746D436180090EE002EA77D /* Route.h */,
@@ -145,7 +151,7 @@
 				0746D44F18009AB8002EA77D /* AffectedService.h */,
 				0746D45018009AB8002EA77D /* AffectedService.m */,
 			);
-			name = "Bus Objects";
+			name = Models;
 			sourceTree = "<group>";
 		};
 		07B4D85D17FAF9C70090303E = {
@@ -171,6 +177,8 @@
 		07B4D86817FAF9C70090303E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0746D4571800AED0002EA77D /* SystemConfiguration.framework */,
+				0746D4551800AEC4002EA77D /* MobileCoreServices.framework */,
 				07373EE317FB92B200AB2B13 /* MapKit.framework */,
 				07373EE117FB929F00AB2B13 /* StoreKit.framework */,
 				07B4D86917FAF9C70090303E /* Foundation.framework */,
@@ -191,11 +199,11 @@
 				07B4D87B17FAF9C70090303E /* Main.storyboard */,
 				07B4D87E17FAF9C70090303E /* ViewController.h */,
 				07B4D87F17FAF9C70090303E /* ViewController.m */,
-				0746D44B18009906002EA77D /* Bus Objects */,
-				0746D43018006236002EA77D /* CTABusTracker.h */,
-				0746D43118006236002EA77D /* CTABusTracker.m */,
 				0746D43318006465002EA77D /* CTAEndpoints.h */,
 				0746D43418006465002EA77D /* CTAEndpoints.m */,
+				0746D45218009F25002EA77D /* MappingProvider.h */,
+				0746D45318009F25002EA77D /* MappingProvider.m */,
+				0746D44B18009906002EA77D /* Models */,
 				07B4D88117FAF9C70090303E /* Images.xcassets */,
 				07B4D87017FAF9C70090303E /* Supporting Files */,
 			);
@@ -380,10 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0746D43218006236002EA77D /* CTABusTracker.m in Sources */,
 				07B4D88017FAF9C70090303E /* ViewController.m in Sources */,
 				07B4D87A17FAF9C70090303E /* AppDelegate.m in Sources */,
 				0746D43E180092C0002EA77D /* Direction.m in Sources */,
+				0746D45418009F25002EA77D /* MappingProvider.m in Sources */,
 				0746D44A1800974F002EA77D /* Prediction.m in Sources */,
 				0746D45118009AB8002EA77D /* AffectedService.m in Sources */,
 				0746D43B18009170002EA77D /* Vehicle.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  CTABusTracker.h
+//  MappingProvider.h
 //  ChicagoTransit
 //
 //  Created by Eric Nelson on 10/5/13.
@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <RestKit/RestKit.h>
 
-@interface CTABusTracker : NSObject
+@interface MappingProvider : NSObject
 
-
-+(NSArray *)getStops:(NSString *)route direction:(NSString *)direction;
++ (RKMapping *) routeMapping;
 
 @end
