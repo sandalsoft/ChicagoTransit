@@ -10,16 +10,16 @@
 
 @interface Vehicle : NSObject
 
-@property (nonatomic, copy) NSString *vid;
-@property (nonatomic, copy) NSString *tmstmp;
-@property (nonatomic, copy) NSNumber *lat;
-@property (nonatomic, copy) NSNumber *lon;
-@property (nonatomic, copy) NSNumber *hdg;
-@property (nonatomic, copy) NSNumber *pid;
-@property (nonatomic, copy) NSNumber *pdist;
-@property (nonatomic, copy) NSString *rt;
-@property (nonatomic, copy) NSString *dst;
-@property (nonatomic, assign) Boolean *dly;
+@property (nonatomic, copy) NSString *vehicleId;
+@property (nonatomic, copy) NSString *timestamp;
+@property (nonatomic, copy) NSNumber *latitude;
+@property (nonatomic, copy) NSNumber *longitude;
+@property (nonatomic, copy) NSNumber *heading;
+@property (nonatomic, copy) NSNumber *patternId;
+@property (nonatomic, copy) NSNumber *patterDistance;
+@property (nonatomic, copy) NSString *route;
+@property (nonatomic, copy) NSString *destination;
+@property (nonatomic, assign) Boolean *isDaily;
 
 
 @end

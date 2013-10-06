@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Sandalsoft. All rights reserved.
 //
 
-#import "Stop.h"
+#import "BusStop.h"
 
-@implementation Stop
+@implementation BusStop
 
 @end

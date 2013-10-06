@@ -13,7 +13,7 @@
 		0746D438180090EE002EA77D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D437180090EE002EA77D /* Route.m */; };
 		0746D43B18009170002EA77D /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43A18009170002EA77D /* Vehicle.m */; };
 		0746D43E180092C0002EA77D /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43D180092C0002EA77D /* Direction.m */; };
-		0746D441180092ED002EA77D /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D440180092ED002EA77D /* Stop.m */; };
+		0746D441180092ED002EA77D /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D440180092ED002EA77D /* BusStop.m */; };
 		0746D4441800935F002EA77D /* Pattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D4431800935F002EA77D /* Pattern.m */; };
 		0746D44718009656002EA77D /* Pt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D44618009656002EA77D /* Pt.m */; };
 		0746D44A1800974F002EA77D /* Prediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D4491800974F002EA77D /* Prediction.m */; };
@@ -61,8 +61,8 @@
 		0746D43A18009170002EA77D /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 		0746D43C180092C0002EA77D /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
 		0746D43D180092C0002EA77D /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
-		0746D43F180092ED002EA77D /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
-		0746D440180092ED002EA77D /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		0746D43F180092ED002EA77D /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		0746D440180092ED002EA77D /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
 		0746D4421800935F002EA77D /* Pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pattern.h; sourceTree = "<group>"; };
 		0746D4431800935F002EA77D /* Pattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pattern.m; sourceTree = "<group>"; };
 		0746D44518009656002EA77D /* Pt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pt.h; sourceTree = "<group>"; };
@@ -138,8 +138,8 @@
 				0746D43A18009170002EA77D /* Vehicle.m */,
 				0746D43C180092C0002EA77D /* Direction.h */,
 				0746D43D180092C0002EA77D /* Direction.m */,
-				0746D43F180092ED002EA77D /* Stop.h */,
-				0746D440180092ED002EA77D /* Stop.m */,
+				0746D43F180092ED002EA77D /* BusStop.h */,
+				0746D440180092ED002EA77D /* BusStop.m */,
 				0746D4421800935F002EA77D /* Pattern.h */,
 				0746D4431800935F002EA77D /* Pattern.m */,
 				0746D44518009656002EA77D /* Pt.h */,
@@ -401,7 +401,7 @@
 				0746D44718009656002EA77D /* Pt.m in Sources */,
 				07B4D87617FAF9C70090303E /* main.m in Sources */,
 				0746D43518006465002EA77D /* CTAEndpoints.m in Sources */,
-				0746D441180092ED002EA77D /* Stop.m in Sources */,
+				0746D441180092ED002EA77D /* BusStop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

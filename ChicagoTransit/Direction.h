@@ -10,6 +10,14 @@
 
 @interface Direction : NSObject
 
-@property (nonatomic, copy) NSString *dir;
+typedef enum : NSUInteger {
+    Northbound,
+    Southbound,
+    Eastbound,
+    Westbound
+} BusRouteDirection;
+
+
+@property (nonatomic, assign) BusRouteDirection direction;
 
 @end

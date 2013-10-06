@@ -10,12 +10,12 @@
 
 @interface Pt: NSObject
 
-@property (nonatomic, copy) NSNumber *seq;
-@property (nonatomic, copy) NSString *typ;
-@property (nonatomic, copy) NSNumber *stpid;
-@property (nonatomic, copy) NSString *stpnm;
-@property (nonatomic, copy) NSNumber *pdist;
-@property (nonatomic, copy) NSNumber *lat;
-@property (nonatomic, copy) NSNumber *lon;
+@property (nonatomic, copy) NSNumber *sequence;
+@property (nonatomic, copy) NSString *type;
+@property (nonatomic, copy) NSNumber *stopId;
+@property (nonatomic, copy) NSString *stopName;
+@property (nonatomic, copy) NSNumber *patternDistance;
+@property (nonatomic, copy) NSNumber *latitude;
+@property (nonatomic, copy) NSNumber *longitude;
 
 @end

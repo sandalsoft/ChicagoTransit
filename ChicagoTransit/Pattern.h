@@ -11,9 +11,9 @@
 @interface Pattern : NSObject
 
 
-@property (nonatomic, copy) NSNumber *pid;
-@property (nonatomic, copy) NSNumber *ln;
-@property (nonatomic, copy) NSString *rtdir;
-@property (nonatomic, copy) Pt *pt;
+@property (nonatomic, copy) NSNumber *patternId;
+@property (nonatomic, copy) NSNumber *length;
+@property (nonatomic, copy) NSString *routeDirection;
+@property (nonatomic, copy) Pt *points;
     
 @end

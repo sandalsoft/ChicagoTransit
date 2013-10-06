@@ -1,5 +1,5 @@
 //
-//  AffectedService.h
+//  Stop.h
 //  ChicagoTransit
 //
 //  Created by Eric Nelson on 10/5/13.
@@ -8,12 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AffectedService : NSObject
+@interface BusStop : NSObject
 
-@property (nonatomic, copy) NSString *route;
-@property (nonatomic, copy) NSString *routeDirection;
 @property (nonatomic, copy) NSNumber *stopId;
 @property (nonatomic, copy) NSString *stopName;
-
+@property (nonatomic, copy) NSNumber *latitude;
+@property (nonatomic, copy) NSNumber *longitude;
 
 @end

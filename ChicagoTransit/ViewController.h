@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, copy) NSArray *busRoutes;
+
+
+-(void)getBusRoutes;
+-(void)getBusStops;
+
 @end

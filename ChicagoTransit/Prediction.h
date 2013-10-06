@@ -11,16 +11,16 @@
 
 @interface Prediction : NSObject
 
-@property (nonatomic, copy) NSDate *tmstmp;
-@property (nonatomic, copy) NSString *typ;
-@property (nonatomic, copy) NSNumber *stpid;
-@property (nonatomic, copy) NSString *stpnm;
-@property (nonatomic, copy) NSNumber *vid;
-@property (nonatomic, copy) NSNumber *dstp;
-@property (nonatomic, copy) NSString *rt;
-@property (nonatomic, copy) Direction *rtdir;
-@property (nonatomic, copy) NSString *des;
-@property (nonatomic, copy) NSDate *prdtm;
-@property (nonatomic, assign) Boolean *dly;
+@property (nonatomic, copy) NSDate *timestamp;
+@property (nonatomic, copy) NSString *type;
+@property (nonatomic, copy) NSNumber *stopId;
+@property (nonatomic, copy) NSString *stopName;
+@property (nonatomic, copy) NSNumber *vehicleId;
+@property (nonatomic, copy) NSNumber *distanceToStop;
+@property (nonatomic, copy) NSString *route;
+@property (nonatomic, copy) Direction *routeDirection;
+@property (nonatomic, copy) NSString *destination;
+@property (nonatomic, copy) NSDate *predictionTime;
+@property (nonatomic, assign) Boolean *isDaily;
 
 @end

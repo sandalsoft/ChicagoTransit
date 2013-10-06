@@ -10,6 +10,6 @@
 
 @interface Route : NSObject
 
-@property (nonatomic, copy) NSString *rt;
-@property (nonatomic, copy) NSString *rtnm;
+@property (nonatomic, copy) NSString *route;
+@property (nonatomic, copy) NSString *routeName;
 @end

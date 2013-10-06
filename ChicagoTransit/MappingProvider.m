@@ -8,16 +8,26 @@
 
 #import "MappingProvider.h"
 #import "Route.h"
+#import "BusStop.h"
 
 @implementation MappingProvider
 
 + (RKMapping *) routeMapping {
     RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[Route class]];
     [mapping addAttributeMappingsFromDictionary:
-     @{@"rt.text":@"rt",
-       @"rtnm.text":@"rtnm"}];
+     @{@"rt.text":@"route",
+       @"rtnm.text":@"routeName"}];
      return mapping;
 }
 
++ (RKMapping *) busStopMapping {
+    RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[BusStop class]];
+    [mapping addAttributeMappingsFromDictionary:
+     @{@"rt.text":@"rt",
+       @"rtnm.text":@"rtnm"}];
+    return mapping;
+
+}
 
 @end
+

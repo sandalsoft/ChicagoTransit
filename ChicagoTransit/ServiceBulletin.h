@@ -11,11 +11,11 @@
 
 @interface ServiceBulletin : NSObject
 
-@property (nonatomic, copy) NSString *nm;
-@property (nonatomic, copy) NSString *sbj;
-@property (nonatomic, copy) NSString *dtl;
-@property (nonatomic, copy) NSString *brf;
-@property (nonatomic, copy) NSString *prty;
-@property (nonatomic, copy) AffectedService *srvc;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *subject;
+@property (nonatomic, copy) NSString *detail;
+@property (nonatomic, copy) NSString *brief;
+@property (nonatomic, copy) NSString *priority;
+@property (nonatomic, copy) AffectedService *affectedService;
 
 @end

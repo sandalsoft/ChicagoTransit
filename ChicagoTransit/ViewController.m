@@ -55,22 +55,12 @@
     
     [operation setCompletionBlockWithSuccess:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
         NSLog(@"result array: %@", [[mappingResult firstObject] description]);
+        self.busRoutes = [mappingResult array];
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", [error description]);
     }];
     
     [operation start];
-    
-//    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-//    [manager GET:@"http://www.ctabustracker.com/bustime/api/v1/getroutes"
-//      parameters:@{@"key":API_KEY}
-//         success:^(AFHTTPRequestOperation *operation, id responseObject) {
-//
-//             NSDictionary *data = [NSDictionary dictionaryWithXMLData:responseObject];
-//             NSLog(@"XML: %@", [data description] );
-//       } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-//            NSLog(@"Error: %@", error);
-//       }];
 }
 
 
