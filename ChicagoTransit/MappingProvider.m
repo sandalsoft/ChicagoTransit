@@ -13,8 +13,10 @@
 
 + (RKMapping *) routeMapping {
     RKObjectMapping *mapping = [RKObjectMapping mappingForClass:[Route class]];
-    [mapping addAttributeMappingsFromArray:@[@"rt", @"rtnm"]];
-    return mapping;
+    [mapping addAttributeMappingsFromDictionary:
+     @{@"rt.text":@"rt",
+       @"rtnm.text":@"rtnm"}];
+     return mapping;
 }
 
 
