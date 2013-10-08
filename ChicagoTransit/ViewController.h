@@ -11,9 +11,9 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic, copy) NSArray *busRoutes;
-
+@property (nonatomic, copy) NSArray *busStops;
 
 -(void)getBusRoutes;
--(void)getBusStops;
+-(void)getBusStops:(NSString *)route direction:(NSString *)direction;
 
 @end

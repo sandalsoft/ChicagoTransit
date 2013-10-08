@@ -22,6 +22,7 @@
 		0746D45418009F25002EA77D /* MappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D45318009F25002EA77D /* MappingProvider.m */; };
 		0746D4561800AEC4002EA77D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746D4551800AEC4002EA77D /* MobileCoreServices.framework */; };
 		0746D4581800AED0002EA77D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746D4571800AED0002EA77D /* SystemConfiguration.framework */; };
+		078514951801C703004199DB /* NSDictionary+URLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 078514941801C703004199DB /* NSDictionary+URLAdditions.m */; };
 		07B4D86A17FAF9C70090303E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86917FAF9C70090303E /* Foundation.framework */; };
 		07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86B17FAF9C70090303E /* CoreGraphics.framework */; };
 		07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86D17FAF9C70090303E /* UIKit.framework */; };
@@ -77,6 +78,8 @@
 		0746D45318009F25002EA77D /* MappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MappingProvider.m; sourceTree = "<group>"; };
 		0746D4551800AEC4002EA77D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0746D4571800AED0002EA77D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		078514931801C703004199DB /* NSDictionary+URLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLAdditions.h"; sourceTree = "<group>"; };
+		078514941801C703004199DB /* NSDictionary+URLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLAdditions.m"; sourceTree = "<group>"; };
 		07B4D86617FAF9C70090303E /* ChicagoTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4D86917FAF9C70090303E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B4D86B17FAF9C70090303E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -203,6 +206,8 @@
 				0746D43418006465002EA77D /* CTAEndpoints.m */,
 				0746D45218009F25002EA77D /* MappingProvider.h */,
 				0746D45318009F25002EA77D /* MappingProvider.m */,
+				078514931801C703004199DB /* NSDictionary+URLAdditions.h */,
+				078514941801C703004199DB /* NSDictionary+URLAdditions.m */,
 				0746D44B18009906002EA77D /* Models */,
 				07B4D88117FAF9C70090303E /* Images.xcassets */,
 				07B4D87017FAF9C70090303E /* Supporting Files */,
@@ -392,6 +397,7 @@
 				07B4D87A17FAF9C70090303E /* AppDelegate.m in Sources */,
 				0746D43E180092C0002EA77D /* Direction.m in Sources */,
 				0746D45418009F25002EA77D /* MappingProvider.m in Sources */,
+				078514951801C703004199DB /* NSDictionary+URLAdditions.m in Sources */,
 				0746D44A1800974F002EA77D /* Prediction.m in Sources */,
 				0746D45118009AB8002EA77D /* AffectedService.m in Sources */,
 				0746D43B18009170002EA77D /* Vehicle.m in Sources */,

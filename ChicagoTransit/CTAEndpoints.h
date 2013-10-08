@@ -16,4 +16,7 @@
 #define ROUTESPATH @"/getroutes"
 #define ROUTESKEYPATH @"bustime-response.route"
 
+#define BUSSTOPSURL @"http://www.ctabustracker.com/bustime/api/v1/getstops"
+#define BUSSTOPSPATH @"/getstops"
+#define BUSSTOPSKEYPATH @"bustime-response.stop"
 @end

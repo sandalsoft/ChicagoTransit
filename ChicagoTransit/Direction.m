@@ -10,4 +10,17 @@
 
 @implementation Direction
 
++(NSString *)NorthBound {
+    return @"Northbound";
+}
++(NSString *)SouthBound {
+    return @"Southbound";
+}
++(NSString *)EastBound {
+    return @"Eastbound";
+}
++(NSString *)WestBound {
+    return @"Westbound";
+}
+
 @end

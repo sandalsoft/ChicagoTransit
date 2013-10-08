@@ -12,5 +12,5 @@
 @interface MappingProvider : NSObject
 
 + (RKMapping *) routeMapping;
-
++ (RKMapping *) busStopMapping;
 @end

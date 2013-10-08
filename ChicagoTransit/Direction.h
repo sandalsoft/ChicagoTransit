@@ -20,4 +20,9 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, assign) BusRouteDirection direction;
 
++(NSString *)NorthBound;
++(NSString *)SouthBound;
++(NSString *)EastBound;
++(NSString *)WestBound;
+
 @end
