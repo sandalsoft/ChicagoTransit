@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Sandalsoft. All rights reserved.
 //
 
-#import "Route.h"
+#import "BusRoute.h"
 
-@implementation Route
+@implementation BusRoute
 
 
 @end

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Route : NSObject
+@interface BusRoute : NSObject
 
 @property (nonatomic, copy) NSString *route;
 @property (nonatomic, copy) NSString *routeName;

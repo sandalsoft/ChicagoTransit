@@ -10,7 +10,7 @@
 		07373EE217FB929F00AB2B13 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE117FB929F00AB2B13 /* StoreKit.framework */; };
 		07373EE417FB92B200AB2B13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07373EE317FB92B200AB2B13 /* MapKit.framework */; };
 		0746D43518006465002EA77D /* CTAEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43418006465002EA77D /* CTAEndpoints.m */; };
-		0746D438180090EE002EA77D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D437180090EE002EA77D /* Route.m */; };
+		0746D438180090EE002EA77D /* BusRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D437180090EE002EA77D /* BusRoute.m */; };
 		0746D43B18009170002EA77D /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43A18009170002EA77D /* Vehicle.m */; };
 		0746D43E180092C0002EA77D /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D43D180092C0002EA77D /* Direction.m */; };
 		0746D441180092ED002EA77D /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746D440180092ED002EA77D /* BusStop.m */; };
@@ -23,6 +23,8 @@
 		0746D4561800AEC4002EA77D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746D4551800AEC4002EA77D /* MobileCoreServices.framework */; };
 		0746D4581800AED0002EA77D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746D4571800AED0002EA77D /* SystemConfiguration.framework */; };
 		078514951801C703004199DB /* NSDictionary+URLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 078514941801C703004199DB /* NSDictionary+URLAdditions.m */; };
+		0785149818047F31004199DB /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0785149718047F31004199DB /* RoutesViewController.m */; };
+		0785149B18048019004199DB /* CTA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0785149A18048019004199DB /* CTA.m */; };
 		07B4D86A17FAF9C70090303E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86917FAF9C70090303E /* Foundation.framework */; };
 		07B4D86C17FAF9C70090303E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86B17FAF9C70090303E /* CoreGraphics.framework */; };
 		07B4D86E17FAF9C70090303E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4D86D17FAF9C70090303E /* UIKit.framework */; };
@@ -56,8 +58,8 @@
 		07373EE317FB92B200AB2B13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0746D43318006465002EA77D /* CTAEndpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAEndpoints.h; sourceTree = "<group>"; };
 		0746D43418006465002EA77D /* CTAEndpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAEndpoints.m; sourceTree = "<group>"; };
-		0746D436180090EE002EA77D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
-		0746D437180090EE002EA77D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		0746D436180090EE002EA77D /* BusRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusRoute.h; sourceTree = "<group>"; };
+		0746D437180090EE002EA77D /* BusRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusRoute.m; sourceTree = "<group>"; };
 		0746D43918009170002EA77D /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 		0746D43A18009170002EA77D /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 		0746D43C180092C0002EA77D /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
@@ -80,6 +82,10 @@
 		0746D4571800AED0002EA77D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		078514931801C703004199DB /* NSDictionary+URLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLAdditions.h"; sourceTree = "<group>"; };
 		078514941801C703004199DB /* NSDictionary+URLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLAdditions.m"; sourceTree = "<group>"; };
+		0785149618047F31004199DB /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesViewController.h; sourceTree = "<group>"; };
+		0785149718047F31004199DB /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesViewController.m; sourceTree = "<group>"; };
+		0785149918048019004199DB /* CTA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA.h; sourceTree = "<group>"; };
+		0785149A18048019004199DB /* CTA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA.m; sourceTree = "<group>"; };
 		07B4D86617FAF9C70090303E /* ChicagoTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4D86917FAF9C70090303E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B4D86B17FAF9C70090303E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,8 +141,8 @@
 		0746D44B18009906002EA77D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0746D436180090EE002EA77D /* Route.h */,
-				0746D437180090EE002EA77D /* Route.m */,
+				0746D436180090EE002EA77D /* BusRoute.h */,
+				0746D437180090EE002EA77D /* BusRoute.m */,
 				0746D43918009170002EA77D /* Vehicle.h */,
 				0746D43A18009170002EA77D /* Vehicle.m */,
 				0746D43C180092C0002EA77D /* Direction.h */,
@@ -200,8 +206,12 @@
 				07B4D87817FAF9C70090303E /* AppDelegate.h */,
 				07B4D87917FAF9C70090303E /* AppDelegate.m */,
 				07B4D87B17FAF9C70090303E /* Main.storyboard */,
+				0785149618047F31004199DB /* RoutesViewController.h */,
+				0785149718047F31004199DB /* RoutesViewController.m */,
 				07B4D87E17FAF9C70090303E /* ViewController.h */,
 				07B4D87F17FAF9C70090303E /* ViewController.m */,
+				0785149918048019004199DB /* CTA.h */,
+				0785149A18048019004199DB /* CTA.m */,
 				0746D43318006465002EA77D /* CTAEndpoints.h */,
 				0746D43418006465002EA77D /* CTAEndpoints.m */,
 				0746D45218009F25002EA77D /* MappingProvider.h */,
@@ -395,14 +405,16 @@
 			files = (
 				07B4D88017FAF9C70090303E /* ViewController.m in Sources */,
 				07B4D87A17FAF9C70090303E /* AppDelegate.m in Sources */,
+				0785149818047F31004199DB /* RoutesViewController.m in Sources */,
 				0746D43E180092C0002EA77D /* Direction.m in Sources */,
 				0746D45418009F25002EA77D /* MappingProvider.m in Sources */,
 				078514951801C703004199DB /* NSDictionary+URLAdditions.m in Sources */,
 				0746D44A1800974F002EA77D /* Prediction.m in Sources */,
 				0746D45118009AB8002EA77D /* AffectedService.m in Sources */,
+				0785149B18048019004199DB /* CTA.m in Sources */,
 				0746D43B18009170002EA77D /* Vehicle.m in Sources */,
 				0746D44E18009968002EA77D /* ServiceBulletin.m in Sources */,
-				0746D438180090EE002EA77D /* Route.m in Sources */,
+				0746D438180090EE002EA77D /* BusRoute.m in Sources */,
 				0746D4441800935F002EA77D /* Pattern.m in Sources */,
 				0746D44718009656002EA77D /* Pt.m in Sources */,
 				07B4D87617FAF9C70090303E /* main.m in Sources */,
